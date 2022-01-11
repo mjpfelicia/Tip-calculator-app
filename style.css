@@ -211,7 +211,7 @@ body {
     font-size: 4.5rem;
 }
 
-.conteudo-error {
+.conteudo_error {
     display: none;
     color: var(--cor-erro);
     justify-content: flex-end;
