@@ -250,7 +250,7 @@ body {
 
 @media (min-width: 1000px) {
     .container {
-        gap: 8rem;
+        gap: 7rem;
         margin-bottom: 5rem;
     }
     .box-geral {
