@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Frontend Mentor - Tip calculator app</title>
+
+</head>
+
+<body>
+    <main class="container">
+        <img src="./images/logo.svg" alt="logo" class="conteudo__logo" />
+
+        <div class="box-geral">
+            <div class="conteudo__input-container">
+                <form action="#" class="conteudo__form" id="conteudo__form--bill">
+                    <div class="conteudo__form-texts">
+                        <label for="bill" class="conteudo__heading">Bill</label>
+                    </div>
+                    <input type="text" name="bill" placeholder="0" autocomplete="off" id="bill" class="conteudo__input" required />
+                </form>
+
+                <div class="conteudo__tips">
+                    <div class=" conteudo__form-texts">
+                        <p class="conteudo__heading">Select Tip %</p>
+                    </div>
+
+                    <ul class="conteudo__list">
+                        <li class="conteudo__item">
+                            <button class="conteudo__btn" type="button" value="5">
+                                5%
+                            </button>
+                        </li>
+                        <li class="conteudo__item">
+                            <button class="conteudo__btn" type="button" value="10">
+                                10%
+                            </button>
+                        </li>
+                        <li class="conteudo__item">
+                            <button class="conteudo__btn" type="button" value="15">
+                                15%
+                            </button>
+                        </li>
+                        <li class="conteudo__item">
+                            <button class="conteudo__btn" id="conteudo-btn" type="button" value="25">
+                                25%
+                            </button>
+                        </li>
+                        <li class="conteudo__item">
+                            <button class="conteudo__btn" type="button" value="50">
+                                50%
+                            </button>
+                        </li>
+                        <li class="conteudo_item">
+                            <form action="#" class="conteudo__form">
+                                <input type="text" name="custom" value="Custom" autocomplete="off" id="custom" class="conteudo__input conteudo__input--custom" required />
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+
+                <form action="#" class="conteudo__form conteudo__form--nop">
+                    <div class="conteudo__form-texts">
+                        <label for="nop" class="conteudo__headin"> Number of People </label>
+                    </div>
+                    <p class="conteudo-error">can't be zero</p>
+                    <input type="text" name="number of people" placeholder="0" maxlength="3" autocomplete="off" id="nop" class="conteudo__input" required />
+                </form>
+            </div>
+
+            <div class="conteudo__output-container">
+                <div class="conteudo__output-headings">
+                    <div class="conteudo__wrapper">
+                        <div class="conteudo__amount-headings">
+                            <p class="conteudo__heading conteudo__heading--tip">Tip Amount</p>
+                            <p class="conteudo__heading conteudo__heading--person">/ person</p>
+                        </div>
+                        <p class="conteudo__number" id="conteudo-TipAmount">$0.00</p>
+                    </div>
+
+                    <div class="conteudo__wrapper">
+                        <div class="conteudo__amount-headings">
+                            <p class="conteudo__heading conteudo__heading--tip">Total</p>
+                            <p class="conteudo__heading conteudo__heading--person">/ person</p>
+                        </div>
+                        <p class="conteudo__number" id="conteudo-total">$0.00</p>
+                    </div>
+                </div>
+
+                <button type="reset" value="Reset" class="conteudo__reset" disabled>
+                    Reset
+                </button>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
