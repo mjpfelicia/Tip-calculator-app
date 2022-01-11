@@ -250,11 +250,11 @@ body {
 
 @media (min-width: 1000px) {
     .container {
-        gap: 7rem;
+        gap: 8rem;
         margin-bottom: 7rem;
     }
     .box-geral {
-        padding: 3rem;
+        padding: 2.5rem;
         display: flex;
         justify-content: center;
         gap: 3rem;
