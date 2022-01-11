@@ -251,7 +251,7 @@ body {
 @media (min-width: 1000px) {
     .container {
         gap: 7rem;
-        margin-bottom: 5rem;
+        margin-bottom: 7rem;
     }
     .box-geral {
         padding: 3rem;
