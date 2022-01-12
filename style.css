@@ -281,4 +281,7 @@ body {
         flex-direction: column;
         justify-content: space-between;
     }
+    .conteudo__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
