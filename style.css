@@ -272,7 +272,6 @@ body {
     }
     .conteudo__input-container {
         flex: 0 1 50%;
-        padding: 1.5rem;
     }
     .conteudo__form--nop {
         margin-bottom: 0;
