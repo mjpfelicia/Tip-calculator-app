@@ -80,11 +80,19 @@ const rest = document.querySelector(".conteudo__reset")
 
 rest.addEventListener("click", (ev) => {
 
-    console.log("resetValores")
-    const resetPagaPorPessoa = document.querySelector("#conteudo-TipAmount")
-    const valorTotalApagar = document.querySelector("#conteudo-total")
+
+    const resetPagaPorPessoa = document.querySelector("#conteudo-TipAmount");
+    const valorTotalApagar = document.querySelector("#conteudo-total");
+    const resetInput = document.querySelectorAll(".reset_conteudo");
     resetPagaPorPessoa.textContent = `$0.00`;
     valorTotalApagar.textContent = `$0.00`;
+
+    resetInput.forEach(input => {
+
+        input.value = '0';
+
+    });
+    console.log({ resetInput })
 
 
 })
