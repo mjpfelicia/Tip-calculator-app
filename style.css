@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Montserrat:ital,wght@1,700&family=Poppins:ital,wght@0,500;0,600;1,700&family=Rubik:ital,wght@0,400;0,500;1,300&display=swap');
 *,
 *::before,
 *::after {
@@ -29,10 +30,10 @@ html {
 }
 
 body {
+    font-family: "Space Mono";
     min-height: 100vh;
     color: var(--cor-ciano-acinzentado-escuro);
     background-color: var(--cor-ciano-acinzentado-claro);
-    font-family: 'Space Mono', monospace;
     font-size: 1.6rem;
     font-weight: 800;
     text-rendering: optimizeSpeed;
@@ -61,6 +62,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 4rem;
+    font-family: "Space Mono";
+    font-weight: 800;
 }
 
 .box-geral {
@@ -102,6 +105,10 @@ body {
     justify-content: space-between;
 }
 
+.conteudo__headin {
+    margin-bottom: .8rem;
+}
+
 #conteudo__form--bill::before {
     content: url("./images/icon-dollar.svg");
 }
@@ -137,6 +144,7 @@ body {
     border: 0;
     padding: 0.5rem 2rem;
     cursor: pointer;
+    font-family: "Space Mono";
 }
 
 .conteudo__input:focus-visible {
@@ -169,6 +177,7 @@ body {
     border-radius: 0.5rem;
     padding-block: 0.1rem;
     transition: all 0.4s;
+    font-family: "Space Mono";
 }
 
 .conteudo__btn--active {
@@ -238,6 +247,7 @@ body {
     border-radius: 0.5rem;
     border: 0;
     font-size: 2rem;
+    font-weight: 700;
     text-transform: uppercase;
     padding-block: 1rem;
     transition: background-color 0.2s ease-out;
