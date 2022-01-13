@@ -69,12 +69,26 @@ function exibirConta(gorgetaPagaPorPessoa, valorTotalApagar, numberDePessoas) {
     gorgeta.textContent = `$${ gorgetaPagaPorPessoa}`;
     total.textContent = `$${valorTotalApagar}`;
 
+    console.log({ numberDePessoas });
+
     if (numberDePessoas === 0) {
         msgErro.style.display = "flex";
 
+    } else {
+        msgErro.style.display = "none";
     }
 
 }
+const numberDePessoas = document.getElementById('nop');
+
+numberDePessoas.addEventListener("focus", ev => {
+    const msgErro = document.querySelector('.conteudo_error');
+    msgErro.style.display = "none";
+
+    console.log({ ev })
+})
+
+
 
 const rest = document.querySelector(".conteudo__reset")
 
