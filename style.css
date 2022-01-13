@@ -30,7 +30,6 @@ html {
 }
 
 body {
-    font-family: "Space Mono";
     min-height: 100vh;
     color: var(--cor-ciano-acinzentado-escuro);
     background-color: var(--cor-ciano-acinzentado-claro);
@@ -62,7 +61,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    font-family: "Space Mono";
+    font-family: "Space Mono", monospace;
     font-weight: 800;
 }
 
